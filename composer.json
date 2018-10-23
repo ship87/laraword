@@ -1,0 +1,22 @@
+{
+	"name" : "vendor/LaraWord",
+	"description" : "Laravel framework on frontend your Wordpress site.",
+	"type" : "wordpress-plugin",
+	"keywords" : [ "wordpress" ],
+	"license" : "GPL-2.0+",
+	"authors" : [
+		{
+			"name" : "Roman Shipelov",
+			"email" : "theship87@gmail.com"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"LaraWord\\" : "app"
+		}
+	},
+	"require" : {
+		"php" : ">=7.0"
+	},
+	"homepage" : "http://example.com/laraword"
+}
