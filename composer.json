@@ -10,14 +10,14 @@
 			"email" : "theship87@gmail.com"
 		}
 	],
+	"require" : {
+		"php": ">=7.0",
+		"ship87/laraword-framework": "dev-master"
+	},
 	"autoload" : {
 		"psr-4" : {
 			"LaraWord\\" : "app"
 		}
 	},
-	"require" : {
-		"ship87/laraword-framework": "dev-master",
-		"php" : ">=7.0"
-	},
-	"homepage" : "http://example.com/laraword"
+	"minimum-stability": "dev"
 }
