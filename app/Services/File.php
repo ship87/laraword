@@ -75,7 +75,7 @@ class File {
 
     private function createFileIncludeLaravelFront() {
 
-        $fileRedirectFront = "<?php require( dirname( __FILE__ ) . '/wp-content/plugins/" . LARAWORD_PLUGIN_NAME . "/framework/public/index.php' );";
+        $fileRedirectFront = "<?php require( dirname( __FILE__ ) . '/wp-content/plugins/" . LARAWORD_PLUGIN_NAME . "/vendor/framework/public/index.php' );";
 
         if ( ! $fp = fopen( $this->pathMainFile, "w" ) ) {
             $this->message[] = "Cannot create file " . $this->mainFile;

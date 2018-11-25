@@ -1,6 +1,6 @@
 {
-	"name" : "vendor/LaraWord",
-	"description" : "Laravel framework on frontend your Wordpress site.",
+	"name" : "ship87/laraword",
+	"description" : "LaraWord - add Laravel framework on frontend your Wordpress site.",
 	"type" : "wordpress-plugin",
 	"keywords" : [ "wordpress" ],
 	"license" : "GPL-2.0+",
@@ -16,6 +16,7 @@
 		}
 	},
 	"require" : {
+		"ship87/laraword-framework": "dev-master",
 		"php" : ">=7.0"
 	},
 	"homepage" : "http://example.com/laraword"
