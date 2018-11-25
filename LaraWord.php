@@ -30,7 +30,7 @@ if ( ! defined( 'WPINC' ) ) {
   die;
 }
 
-define( 'LARAWORD_PLUGIN_NAME', 'LaraWord');
+define( 'LARAWORD_PLUGIN_NAME', 'laraword');
 define( 'LARAWORD_VERSION','1.0.0');
 define( 'LARAWORD_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 

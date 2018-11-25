@@ -19,6 +19,8 @@ class File {
 
     public $message = [];
 
+    const LARAWORD_FRAMEWORK_PATH = LARAWORD_PLUGIN_NAME . "/vendor/ship87/laraword-framework/";
+
     public function __construct() {
 
         $this->pathMainFile = ABSPATH . $this->mainFile;
@@ -75,7 +77,7 @@ class File {
 
     private function createFileIncludeLaravelFront() {
 
-        $fileRedirectFront = "<?php require( dirname( __FILE__ ) . '/wp-content/plugins/" . LARAWORD_PLUGIN_NAME . "/vendor/framework/public/index.php' );";
+        $fileRedirectFront = "<?php require( dirname( __FILE__ ) . '/wp-content/plugins/" . self::LARAWORD_FRAMEWORK_PATH . "public/index.php' );";
 
         if ( ! $fp = fopen( $this->pathMainFile, "w" ) ) {
             $this->message[] = "Cannot create file " . $this->mainFile;
